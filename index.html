@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" href="node_modules\sweetalert2\dist\sweetalert2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="40x40" href="images/logo2.jpg">
+    <script src="https://kit.fontawesome.com/b35ef79d08.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <section class="memory-class">
+        <div class="memory-card" data-framework="pic1">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic1.png" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic2">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic2.jpg" alt="images/pic2" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic3">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic3.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic4">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic4.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic5">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic5.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic6">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic6.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic7">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic7.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic8">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic8.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic1">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic1.png" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic2">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic2.jpg" alt="images/pic2" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic3">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic3.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic4">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic4.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic5">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic5.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic6">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic6.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic7">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic7.jpg" alt="" class="front-face">
+        </div>
+        <div class="memory-card" data-framework="pic8">
+          <img src="images/cover.jpg" alt="" class="back-face">
+          <img src="images/pic8.jpg" alt="" class="front-face">
+        </div>
+      </section>
+      <aside class="menu">
+        <div class="new-game">
+          <p class="title">New Game <i class="fas fa-gamepad"></i></p>
+          <div class="start-btn txt">Start</div>
+        </div>
+        <div class="time">
+          <p class="time-title">Time <i class="fas fa-stopwatch"></i></p>
+          <p id="chrono" class="txt">00<span id="points" class="txt">:</span>00</p>
+        </div>
+        <div class="moves">
+          <p class="moves-title ">Moves <i class="fas fa-chess-bishop"></i></p>
+          <p class="moves-result txt"><span id="moves">0</span></p>
+        </div>
+        <div class="record">
+          <p id="record-title">Best Score <i class="fas fa-crown"></i></p>
+          <p id="record-result" class="txt">0 <i class="fas fa-chess-bishop"></i> In 00:00</p>
+        </div>
+      </aside>
+      <footer>
+        <p>Copyright &copy; 2020, Developed by <a href="#">Youcef Khaoua</a> </p>
+      </footer>
+      <script src="node_modules\sweetalert2\dist\sweetalert2.all.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
